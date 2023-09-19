@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-bottom: 2em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+}
+
+/* Bootstrap CSS overrides */
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-link {
+  font-size: 1rem;
+}
+
+.navbar-link:active {
+  background-color: #ccc;
+}
+
+.section h2 {
+  font-size: 2rem;
+}
+
+.section p {
+  font-size: 1rem;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
